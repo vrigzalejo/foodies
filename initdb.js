@@ -1,5 +1,4 @@
-const sql = import('better-sqlite3');
-const db = sql('meals.db');
+const db = require('better-sqlite3')('meals.db');
 
 const dummyMeals = [
   {
